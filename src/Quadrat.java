@@ -2,6 +2,7 @@ public class Quadrat extends GeometrischeForm {
     private double seitenlänge;
 
     public Quadrat(double seitenlänge) {
+        super("Seitenlänge");
         this.seitenlänge = seitenlänge;
     }
 

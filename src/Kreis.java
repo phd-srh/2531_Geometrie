@@ -2,6 +2,7 @@ public class Kreis extends GeometrischeForm {
     private double radius;
 
     public Kreis(double radius) {
+        super("Radius");
         this.radius = radius;
     }
 

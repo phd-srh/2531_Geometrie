@@ -26,18 +26,12 @@ public class Main {
 
     public static void main(String[] args) {
         Kreis kreis = new Kreis(7.3);
-//        System.out.print( "Ein Kreis mit einem Radius von ");
-//        System.out.print( 7.3 );
-//        System.out.print( " hat eine Fläche von ");
-//        System.out.println( kreis.berechneFläche() );
         ausgabeGeometrischeForm(kreis);
 
         Quadrat quadrat = new Quadrat(4.9);
-//        System.out.print( "Ein Quadrat mit einer Seitenlänge von ");
-//        System.out.print( 4.9 );
-//        System.out.print( " hat eine Fläche von ");
-//        System.out.println( quadrat.berechneFläche() );
         ausgabeGeometrischeForm(quadrat);
 
+//        GeometrischeForm irgendeineForm = new GeometrischeForm("irgendwas");
+//        ausgabeGeometrischeForm(irgendeineForm);
     }
 }

@@ -1,4 +1,7 @@
-public class GeometrischeForm {
+
+// eine abstrakte Klasse dient nur als Basisklasse
+// und erlaubt nicht, dass Objekte dieser Klasse erstellt werden!
+public abstract class GeometrischeForm {
     private String attributName;
 
     public GeometrischeForm(String attributName) {
@@ -9,11 +12,9 @@ public class GeometrischeForm {
         return attributName;
     }
 
-    public double berechneFläche() {
-        return 0.0;
-    }
+    // abstrakte Methoden brauchen keinen Methodenrumpf (Implementierung),
+    // müssen dann aber in der Unterklasse überschrieben werden!
+    public abstract double berechneFläche();
 
-    public double berechneUmfang() {
-        return 0.0;
-    }
+    public abstract double berechneUmfang();
 }
